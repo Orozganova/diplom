@@ -1,0 +1,46 @@
+.About_in{
+  margin-bottom: 30px;
+}
+.About_img{
+  width: 40%;
+  height: 450px;
+}
+.About_txt{
+  width: 60%;
+  padding-left: 25px;
+}
+.About_bot p{
+  margin-bottom: 20px;
+}
+.About_tit{
+  margin-bottom: 20px;
+}
+.About_txt b{
+  display: block;
+  margin-bottom: 8px;
+}
+.Section_3 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.Cartt {
+  display: flex;
+  align-items: center;
+}
+.Section_3 .Cart_4_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Section_3 .Cart_4_content p {
+  font-size: 25px;
+  line-height: 2;
+  text-align: center;
+  width: 65%;
+  font-weight: 600;
+}
+

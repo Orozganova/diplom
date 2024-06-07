@@ -1,0 +1,98 @@
+.footer {
+  background-color: pink;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex-basis: 25%;
+  margin-bottom: 40px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  display: flow-root;
+}
+
+.footer-heading {
+  margin-bottom: 20px;
+  font-size: 18px;
+  margin-left: 65px;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 65px;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.network-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.network-icons .bi {
+  width: 40px;
+  height: 40px;
+  color: #99CCFF;
+  transition: 0.5s;
+}
+
+.footer-list li:hover {
+  cursor: pointer;
+  color: #99CCFF;
+}
+
+.footer-column a:hover {
+  color: #99CCFF;
+}
+
+.network-icons .bi:hover {
+  cursor: pointer;
+  color: #99CCFF;
+}
+
+.footer .info {
+  display: flex;
+  max-width: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 400px;
+}
+
+.footer .info strong {
+  margin-right: 30px;
+}
+
+.footer .info p {
+  margin: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-column {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-column {
+    flex-basis: 100%;
+  }
+}
