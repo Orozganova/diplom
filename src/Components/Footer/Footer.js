@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { AppContext } from "../../App";
 import './Footer.css';
 
+
 function Footer() {
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -43,7 +44,24 @@ function Footer() {
         <div className="footer-column">
           <h4 className="footer-heading">Categories</h4>
           <ul className="footer-list">
-            {output}
+          <li>
+              <NavLink to="/" onClick={scrollToTop}>Special offers and promations</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about" onClick={scrollToTop}>Flower baskets</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" onClick={scrollToTop}>Floral gift sets</NavLink>
+            </li>
+            <li>
+              <NavLink to="/deliver" onClick={scrollToTop}>Bridal bouquet</NavLink>
+            </li>
+                <li>
+              <NavLink to="/" onClick={scrollToTop}>Flower bouquet</NavLink>
+            </li>
+            <li>
+             <NavLink to="/about" onClick={scrollToTop}>Plants</NavLink>
+            </li>
           </ul>
         </div>
         <div className="footer-column">
@@ -66,8 +84,9 @@ function Footer() {
           </Link>
         </div>
         <div className="footer-column">
-          <h4 className="footer-heading">Cellular Networks</h4>
+          <h4 className="footer-heading">Aplication</h4>
           <div className="network-icons">
+
             <Link
               to="https://www.instagram.com/_aitww/"
               target='_blank'
@@ -99,9 +118,16 @@ function Footer() {
         </div>
       </div>
       <hr />
+      <div className="GoUp">
+        <Link href="#" onClick={scrollToTop}>
+          <i className="fa-solid fa-arrow-up"></i>
+          <h3>GO UP</h3>
+        </Link>
+      </div>
       <div className="container">
         <div className="info">
-          <p><strong>  More ways to shop: Find an flower shop or other retailer near you.</strong>Copyright  2024 . All rights reserved.</p>
+          <p><strong>  More ways to shop: Find an flower shop or other retailer near you.</strong></p>
+          <p><strong>Copyright  2024 . All rights reserved.</strong></p>
         </div>
       </div>
     </footer>

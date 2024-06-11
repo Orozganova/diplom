@@ -1,0 +1,16 @@
+.Total{
+   text-align: center; 
+   position: absolute;
+   top: 220px;
+   right: 150px;
+   margin: 100px;
+   background-color: pink;
+   padding: 25px;
+   border-radius: 3px;
+}
+.Total_txt{
+font-size: 30px;
+}
+.total_tit{
+    font-size: 20px;
+}

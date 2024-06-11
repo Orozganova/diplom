@@ -3,6 +3,7 @@ import Menu from '../Nav/Nav';
 import Logo from '../Logo/Logo';
 import {Link} from 'react-router-dom'
 import Auth from '../Auth/Auth'
+import CartLink from '../CartLink/CartLink';
 
 function Header() {
   return (
@@ -17,6 +18,7 @@ function Header() {
           <Link to="/cart" className="Cart_ic">
             <span>0</span>
           </Link>
+          <CartLink />
         </div>
       </div>
     </header>

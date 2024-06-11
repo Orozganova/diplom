@@ -19,11 +19,33 @@ function Contacts() {
           <strong className="contact-label">Email:</strong> aorozganova@gmail.com
         </p>
         <p>
-          <strong className="contact-label">Working Hours:</strong> Monday to Friday, 9:00 AM - 6:00 PM
+          <strong className="contact-label">Schedule:</strong> Monday-Friday, 9:00 AM - 20:00 PM
         </p>
       </div>
-      <p className="contact-message">If you have questions, suggestions or need assistance, please contact us using one of the following options:
-      </p>
+      <form action="" class="form forma_book">
+						<div class="forma_in flex">
+							<div class="forma_input">
+								<span class="forma_tit">Name</span>
+								<input type="text" class="input" placeholder="Enter your name" />
+							</div>
+							<div class="forma_input">
+								<span class="forma_tit">Email</span>
+								<input type="text" class="input" placeholder="Enter email address" />
+							</div>
+							<div class="forma_input forma_input_big">
+								<span class="forma_tit">Subject</span>
+								<input type="text" class="input" placeholder="Write a subject" />
+							</div>
+							<div class="forma_input forma_input_big">
+								<span class="forma_tit">Message</span>
+								<input type="text" class="input" placeholder="Write your message" />
+							</div>
+							<div class="forma_btn">
+								<button class="btn" type="submit">Send</button>
+							</div>
+						</div>
+					</form>
+      <div className="network-icons">
       <Link
               to="https://www.instagram.com/_aitww/"
               target='_blank'
@@ -51,10 +73,12 @@ function Contacts() {
   <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
 </svg>
 </Link>
+</div>  
 <div className="Contacts_map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d46793.32304975421!2d74.61601280000001!3d42.860544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1714988710851!5m2!1sru!2skg" title="Контактная информация" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
+      
     </section>
   );
 }

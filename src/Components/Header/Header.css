@@ -15,12 +15,13 @@ header{
   width: 29px;
   height: 29px;
   display: block;
-  background: url(../../Pages/img/cart-ic.png) center no-repeat;
+  background: url(../../Pages/img/icon12.png) center no-repeat;
   background-size: cover;
   position: absolute;
   right: 0;
   top: 50%;
   margin-top: -12px;
+  margin-right: -5px;
 }
 .Cart_ic span{
   position: absolute;

@@ -43,4 +43,38 @@
   width: 65%;
   font-weight: 600;
 }
+@media (max-width: 800px) {
+  .About_img, .About_txt {
+    width: 100%;
+    padding: 0;
+    height: auto;
+  }
 
+  .About_tit {
+    font-size: 1.5rem;
+  }
+
+  .Section_3 .Cart_4_content p {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .Cartt {
+    flex-direction: column;
+  }
+
+  .Cart_4_img {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .About_tit {
+    font-size: 1.2rem;
+  }
+
+  .Section_3 .Cart_4_content p {
+    font-size: 18px;
+    width: 90%;
+  }
+}

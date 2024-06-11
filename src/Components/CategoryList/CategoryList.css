@@ -1,6 +1,12 @@
-.CategoryList{
-    background: rgb(245, 245, 247);
+.CategoryList .Btn{
+    background: #FF69B4(245, 245, 247);
     padding: 10px 0;
+}
+.ctg{
+    color:#DB7093;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
 }
 .CategoryList a{
     display: block;
@@ -12,4 +18,61 @@
 }
 .dropdownBtn{
     padding-bottom: 5px;
+}
+.CategoryList ul li a {
+    text-decoration: none;
+    font-weight: 900;
+    color: #FF69B4;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    transition: 0.5S;
+}
+
+.CategoryList li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.CategoryList ul a:hover {
+    color: #FF69B4;
+    transform: scale(1.1);
+}
+
+.CategoryList ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.CategoryList p {
+    color: #FF69B4;
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 45px;
+
+}
+
+
+
+.CategoryList img:hover {
+    transform: scale(0.90);
+    box-shadow: 0 0 19px 0px rgb(178, 84, 114);
+}
+
+.CategoryList .Category {
+    display: flex;
+    flex-direction: column;
+    margin: 13px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.Category {
+    color: #FF69B4(128, 60, 82);
+    text-align: center;
+    padding-top: 30px;
+
 }

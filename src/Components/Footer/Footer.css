@@ -26,13 +26,25 @@
   margin-bottom: 20px;
   font-size: 18px;
   margin-left: 65px;
+  margin-right: 80px;
+  padding: 6px;
+
 }
+Footer .GoUp{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .Footer .GoUp a {
+    text-decoration: none;
+  }
+
 
 .footer-list {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-left: 65px;
+  margin-left: 68px;
 }
 
 .footer-list li {
@@ -43,11 +55,13 @@
 .network-icons {
   display: flex;
   justify-content: space-around;
+  margin-right: 110px;
+ 
 }
 
 .network-icons .bi {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   color: #99CCFF;
   transition: 0.5s;
 }
@@ -81,7 +95,7 @@
 
 .footer .info p {
   margin: 0;
-  font-size: 20px;
+  font-size: 15px;
   color: #fff;
 }
 
