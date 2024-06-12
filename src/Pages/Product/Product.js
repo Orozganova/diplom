@@ -1,3 +1,4 @@
+import "./Product.css"
 import { useContext } from "react";
 import { useMatch } from "react-router-dom"
 import { AppContext } from "../../App";
@@ -15,15 +16,17 @@ export default function Product() {
   }
 
   return (
-    <div className="Product">
-      <div>
-        <img src={product.picture} alt={product.name} />
-      </div>
-      <div>
-        <h1>{product.name}</h1>
-        <p><strong>Price:</strong> {product.price}$</p>
-        <p><strong>Description: </strong>{product.description}</p>
-        <AddToCart product={product} />
+    <div className="Product flex">
+        <div className="Product ">
+          <div className="ProductImg">
+            <img src={product.picture} alt={product.name} />
+          </div>
+          <div className="ProductTxt">
+            <h1 className="name">{product.name}</h1>
+            <p className="productPrice"><strong>Price:</strong> {product.price}$</p>
+            <p className="description"><strong>Description: </strong>{product.description}</p>
+            <button className="btn-addtocart">Add to Cart</button>
+          </div>
       </div>
     </div>
   )

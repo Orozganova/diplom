@@ -1,0 +1,36 @@
+
+.btn-addtocart{
+  border-radius: 10px;
+  padding: 2px 10px;
+  margin-right: 5px;
+  background-color: rgb(204, 105, 121);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  transition: all 100ms linear;
+  max-width: 140px;
+}
+.btn-addtocart:hover{
+background-color: rgb(129, 129, 224) ;
+}
+/* .productPrice{
+
+} */
+.ProductImg{
+  width: 270px;
+  margin-bottom: 25px;
+}
+.ProductTxt{
+  width: calc(100% - 5%);
+}
+/* .description{
+
+} */
+.name{
+  color: rgb(193, 97, 113);
+  margin-left: 220px;
+  text-align: center;
+  
+  
+  
+}

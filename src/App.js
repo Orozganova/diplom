@@ -44,7 +44,7 @@ function App() {
     onOrdersLoad(setOrders);
 
     onAuthChange(user => {
-      if(user) {
+      if (user) {
         user.isAdmin = user && user.email === "aorozganova@gmail.com";
       }
 
@@ -57,8 +57,9 @@ function App() {
   return (
     <div className="App">
       <AppContext.Provider value={{ categories, products, cart, setCart, user, orders }} >
-      <Header/>
-    <CategoryList/>
+        <Header />
+        <div className="container">
+          <CategoryList />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
@@ -72,11 +73,10 @@ function App() {
 
             <Route path="*" element={<NotFound />} />
           </Routes>
+        </div>
       </AppContext.Provider>
-    
-      
-      <Footer/>
-    </div>
+      <Footer />
+    </div >
   );
 }
 
