@@ -30,7 +30,18 @@ background-color: rgb(129, 129, 224) ;
   color: rgb(193, 97, 113);
   margin-left: 220px;
   text-align: center;
-  
-  
-  
+}
+.productPrice{
+  margin-bottom: 5px;
+  color: brown;
+  font-size: 22px;
+}
+.description{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: brown;
+  font-size: 22px;
+}
+.btn-addtocart{
+  margin-bottom: 5px;
 }
